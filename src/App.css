@@ -11,3 +11,7 @@
 .incorrect{
   color:red
 }
+
+.prevent-select {
+  user-select: none; /* Standard syntax */
+}

@@ -55,7 +55,8 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h4>
+        <h4
+         className="prevent-select">
           Total : {score.total} / Correct : {score.correct} / InCorrect :{' '}
           {score.incorrect}
         </h4>
